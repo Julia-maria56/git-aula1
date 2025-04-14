@@ -30,6 +30,14 @@
     <li>git push origin [nome da branch]</li>
   </ol>
   <h4>Para voltar à main:git checkout main </h4>
+
+  <h1>E se eu quiser tranformar uma branch remota em local?</h1>
+  <h3>No github, apertei em "2 branches" e criei uma nova branch chamada "alternativa-b", com base em "alternativa-a"</h3>
+  <h3>Após remotamente alterar a branch alternativa-b, fui no terminal bash do vscode e digitei os comandos:</h3>
+  <ul>
+    <li>git fetch</li>
+    <li>git checkout alternativa-b</li>
+  </ul>
   
 
   
