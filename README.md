@@ -52,6 +52,7 @@
   <h1>Pull request (juntar duas branchs remotamente</h1>
   <h3>Você vai para a sessão de pull request e lá escolhe a base, no caso main e a outra branch que vai "entrar" na main, no caso, alternativa-a</h3>
   <h3>Depois, é só escrever uma mensagem, ver se não tem conflito e "merger" as duas branchs</h3>
+  <h4>Para transferir essa alteração remota para o meu vscode, usa-se <h2>git pull origin main</h2></h4>
   
 
   
