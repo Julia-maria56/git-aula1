@@ -39,7 +39,7 @@
     <li>git checkout alternativa-b</li>
   </ul>
 
-  <h1>Se eu quiser juntar duas branchs:</h1>
+  <h1>Se eu quiser juntar duas branchs localmente:</h1>
   <h3> Eu devo entrar na branch que eu quero que receba as modificações. No meu caso, foi a branch "alternativa-a"</h3>
   <h3>Então, eu usei o comando "git checkout alternativa-a". Depois:</h3>
   <ul>
@@ -48,6 +48,10 @@
     <li>git commit -m "alternativas A e B unidas"</li>
     <li>git push origin alternativa-a</li>
   </ul>
+
+  <h1>Pull request (juntar duas branchs remotamente</h1>
+  <h3>Você vai para a sessão de pull request e lá escolhe a base, no caso main e a outra branch que vai "entrar" na main, no caso, alternativa-a</h3>
+  <h3>Depois, é só escrever uma mensagem, ver se não tem conflito e "merger" as duas branchs</h3>
   
 
   
