@@ -53,6 +53,19 @@
   <h3>Você vai para a sessão de pull request e lá escolhe a base, no caso main e a outra branch que vai "entrar" na main, no caso, alternativa-a</h3>
   <h3>Depois, é só escrever uma mensagem, ver se não tem conflito e "merger" as duas branchs</h3>
   <h4>Para transferir essa alteração remota para o meu vscode, usa-se <h2>git pull origin main</h2></h4>
+
+  <h1>Caso eu altere remotamente uma branch, mas a queira localmente, eu uso:</h1>
+  <h3>git checkout alternativa-b</h3>
+  <h3>git pull origin alternativa-b</h3>
+
+  <h1>Caso eu queira adicionar uma branch "alternativa-b" remota em uma main local, eu devo:</h1>
+  <ul>
+    <li>git checkout main</li>
+    <li>git pull origin alternativa-b</li>
+     <li>git add .</li>
+    <li>git commit -m "Main"</li>
+    <li>git push origin main</li>
+  </ul>
   
 
   
