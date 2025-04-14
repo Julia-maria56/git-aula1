@@ -21,4 +21,15 @@
     <li>git push origin main</li>
   </ul>
 
+  <h1>Sobre as branches</h1>
+  <h3>Se eu quiser criar uma branch, eu devo seguir os seguintes passos:</h3>
+  <ol>
+    <li>No terminal do vscode, digitar: "git checkout -b [nome branch]"</li>
+    <li>git add .</li>
+    <li>git commit -m "uma nova versão"</li>
+    <li>git push origin [nome da branch]</li>
+  </ol>
+  <h4>Para voltar à main:git checkout main </h4>
+  
+
   
